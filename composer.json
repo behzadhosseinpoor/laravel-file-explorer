@@ -1,0 +1,48 @@
+{
+    "name": "behzadhosseinpoor/laravel-file-explorer",
+    "description": "An elegant file explorer for the Laravel framework.",
+    "keywords": [
+        "laravel",
+        "file-explorer",
+        "laravel-file-explorer",
+        "laravel-package",
+        "behzadhosseinpoor",
+        "behzad",
+        "file",
+        "file-manager",
+        "laravel-file-manager"
+    ],
+    "minimum-stability": "stable",
+    "homepage": "https://behzadhp.ir/laravel-file-explorer/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Behzad HosseinPoor",
+            "email": "behzad.hp@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^8.29|^9.0|^10.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "BehzadHosseinPoor\\FileExplorer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BehzadHosseinPoor\\FileExplorer\\FileExplorerServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true,
+        "allow-plugins": {
+            "infection/extension-installer": true
+        }
+    }
+}
